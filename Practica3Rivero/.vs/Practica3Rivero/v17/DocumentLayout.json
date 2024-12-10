@@ -1,0 +1,94 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProyectosVisualStudio2022\\Proyecto\\Practica3Rivero\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B02E83FA-FFF3-48FF-87F7-1958D7881F9D}|Practica3Rivero\\Practica3Rivero.csproj|d:\\proyectosvisualstudio2022\\proyecto\\practica3rivero\\practica3rivero\\controllers\\abonoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B02E83FA-FFF3-48FF-87F7-1958D7881F9D}|Practica3Rivero\\Practica3Rivero.csproj|solutionrelative:practica3rivero\\controllers\\abonoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02E83FA-FFF3-48FF-87F7-1958D7881F9D}|Practica3Rivero\\Practica3Rivero.csproj|d:\\proyectosvisualstudio2022\\proyecto\\practica3rivero\\practica3rivero\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B02E83FA-FFF3-48FF-87F7-1958D7881F9D}|Practica3Rivero\\Practica3Rivero.csproj|solutionrelative:practica3rivero\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02E83FA-FFF3-48FF-87F7-1958D7881F9D}|Practica3Rivero\\Practica3Rivero.csproj|D:\\ProyectosVisualStudio2022\\Proyecto\\Practica3Rivero\\practica3rivero\\views\\abonos\\registroabonos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B02E83FA-FFF3-48FF-87F7-1958D7881F9D}|Practica3Rivero\\Practica3Rivero.csproj|solutionrelative:practica3rivero\\views\\abonos\\registroabonos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B02E83FA-FFF3-48FF-87F7-1958D7881F9D}|Practica3Rivero\\Practica3Rivero.csproj|D:\\ProyectosVisualStudio2022\\Proyecto\\Practica3Rivero\\practica3rivero\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B02E83FA-FFF3-48FF-87F7-1958D7881F9D}|Practica3Rivero\\Practica3Rivero.csproj|solutionrelative:practica3rivero\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AbonosController.cs",
+              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\Proyecto\\Practica3Rivero\\Practica3Rivero\\Controllers\\AbonosController.cs",
+              "RelativeDocumentMoniker": "Practica3Rivero\\Controllers\\AbonosController.cs",
+              "ToolTip": "D:\\ProyectosVisualStudio2022\\Proyecto\\Practica3Rivero\\Practica3Rivero\\Controllers\\AbonosController.cs",
+              "RelativeToolTip": "Practica3Rivero\\Controllers\\AbonosController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T20:35:17.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistroAbonos.cshtml",
+              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\Proyecto\\Practica3Rivero\\Practica3Rivero\\Views\\Abonos\\RegistroAbonos.cshtml",
+              "RelativeDocumentMoniker": "Practica3Rivero\\Views\\Abonos\\RegistroAbonos.cshtml",
+              "ToolTip": "D:\\ProyectosVisualStudio2022\\Proyecto\\Practica3Rivero\\Practica3Rivero\\Views\\Abonos\\RegistroAbonos.cshtml",
+              "RelativeToolTip": "Practica3Rivero\\Views\\Abonos\\RegistroAbonos.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T20:00:35.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\Proyecto\\Practica3Rivero\\Practica3Rivero\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Practica3Rivero\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ProyectosVisualStudio2022\\Proyecto\\Practica3Rivero\\Practica3Rivero\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Practica3Rivero\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T18:55:06.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ProyectosVisualStudio2022\\Proyecto\\Practica3Rivero\\Practica3Rivero\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Practica3Rivero\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ProyectosVisualStudio2022\\Proyecto\\Practica3Rivero\\Practica3Rivero\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Practica3Rivero\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T18:34:24.525Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

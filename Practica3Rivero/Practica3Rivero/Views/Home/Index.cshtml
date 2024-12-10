@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">Bienvenidos a ProductCR</h1>
+        <p class="lead">En ProductCR, puedes realizar distintas actividades con el fin de comprar tus productos favoritos...</p>
+        <br />
+        <br />
+        <br />
+        <h2>Aqui puedes realizar las siguientes actividades:</h2>
+        <br />
+        <br />
+        <br />
+    </section>
+
+    <div class="row">
+        <section class="col-md-4">
+            <h2>Consultar Pagos</h2>
+            <p>
+                En ProductCR, podrás visualizar tus pagos a realizar de una manera sencilla, con el simple hecho de hacer click en "Consultar Pagos" visualizaras una tabla en donde se encuentran los productos pendietes y cancelados 😎.
+            </p>
+            <p><a class="btn btn-outline-danger" href="@Url.Action("ConsultarProductos", "Principal")">Consultar Pagos</a></p>
+        </section>
+       
+        <section class="col-md-4">
+            <h2>Realizar Abonos</h2>
+            <p>En conjunto de ProductCR, podrás realizar abonos a tus productos previamente seleccionados, aqui solo eliges el producto a pagar, consultas su precio e ingresas el monto a abonar y abonas, siendo un proceso muy sencillo 😊🎉.</p>
+            <p><a class="btn btn-outline-danger" href="@Url.Action("RegistroAbonos", "Abonos")">Realizar Abonos</a></p>
+        </section>
+    </div>

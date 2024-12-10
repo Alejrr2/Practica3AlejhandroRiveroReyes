@@ -1,0 +1,42 @@
+﻿@model List<Practica3Rivero.Models.Principal>
+@{
+    ViewBag.Title = "ConsultarProductos";
+}
+<br />
+
+<div class="card">
+    <div class="card-body">
+        <div class="d-flex justify-content-center">
+            <h5 class="card-title">Consulta de Productos</h5>
+        </div>
+        <div class="table-responsive">
+            <table id="example" class="table text-nowrap align-middle mb-0">
+                <thead>
+                    <tr class="border-2 border-bottom border-danger border-0 text-danger">
+                        <th>Código Compra</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Saldo</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id_Compra</td>
+                            <td>@item.Descripcion </td>
+                            <td>¢ @item.Precio.ToString("N2")</td>
+                            <td>¢ @item.Saldo</td>
+                            <td>@item.Estado</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<br />
+
+
+

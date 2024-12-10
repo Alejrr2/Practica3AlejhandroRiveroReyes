@@ -1,0 +1,52 @@
+﻿@model Practica3Rivero.Models.Abonos
+
+@{
+    ViewBag.Title = "RegistroAbonos";
+}
+<div class="container mt-5" style="max-width: 600px;">
+    <div class="card shadow border-0">
+        <div class="card-header bg-danger text-center">
+            <h5 class="mb-0 text-white">
+                <span class="d-block">Bienvenidos al...</span>
+            </h5>
+        </div>
+        <div class="card-body">
+            @if (ViewBag.MensajePantalla != null)
+            {
+                <div class="alert alert-danger text-center" role="alert">
+                    @ViewBag.MensajePantalla
+                </div>
+            }
+            @using (Html.BeginForm("ConsultarSaldo", "Abonos", FormMethod.Post))
+            {
+                <center><h6>Registro de Abonos</h6></center>
+                <br>
+                <div class="form-group d-flex align-items-center mb-4">
+                    <label class="form-label fw-semibold me-3">Compra</label>
+                    @Html.DropDownList("Id_Compra", (SelectList)ViewBag.ComprasPendientes, "Seleccione una compra", new { @class = "form-control me-3", @required = "required" })
+                    <button type="submit" class="btn btn-danger fw-semibold">Consultar</button>
+                </div>
+            }
+            @if (ViewBag.SaldoConsultado)
+            {
+                using (Html.BeginForm("RegistroAbonos", "Abonos", FormMethod.Post))
+                {
+                    @Html.HiddenFor(m => m.Id_Compra)
+                    <br>
+                    <div class="form-group d-flex align-items-center mb-4">
+                        <label class="form-label fw-semibold me-3">Saldo Anterior</label>
+                        @Html.TextBoxFor(m => m.Saldo, new { @class = "form-control me-3", @readOnly = true, style = "background-color: #f8f9fa;", @placeholder = "" })
+                    </div>
+                    <br>
+                    <div class="form-group d-flex align-items-center mb-4"> <label class="form-label fw-semibold me-3">Abono</label> @Html.TextBoxFor(m => m.Monto, new { @class = "form-control me-3", @placeholder = "Ingresa el monto a abonar", @required = "required", @type = "text", @pattern = "[0-9,]*" }) </div>
+
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-danger fw-semibold">Abonar</button>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
+<br />
